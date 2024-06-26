@@ -1,0 +1,35 @@
+* {
+box-sizing: border-box;
+padding: 0px;
+margin: 0;
+}
+
+body {
+    margin: 30px;
+}
+h1 {
+    font-size: 40px;
+        font-size: 40px;
+        margin-bottom: 35px;
+    }
+h2 {
+font-size: 32px;
+margin-bottom: 30px´
+}    
+h3 {
+font-size: 24px;
+}
+h4 {
+font-size: 21px;
+}
+h5 {
+font-size: 16px;
+} 
+h6 {
+font-size: 12px;
+} 
+input[type="submit"] {
+    background-size: cover;
+    padding: 20px;
+}
+
