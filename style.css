@@ -7,12 +7,32 @@ margin: 0;
 body {
     
 }
+h1#mostimportanttitle {
+    color: purple;
+}   
+h1.red {
+    color: cadetblue;
+}
+.container h1.red {
+color: rgb(243, 18, 18);
+}
 h1 {
     font-size: 40px;
         font-size: 40px;
         margin-bottom: 35px;
     }
-h2 {
+        h1 {
+            color: burlywood;
+        }
+        .red {
+            color: indianred;
+        }
+        
+        h1 {
+            color: rgb(101, 58, 3);
+        }   
+h2 
+{
 font-size: 32px;
 margin-bottom: 30px;
 }    
@@ -34,6 +54,9 @@ img {
 input[type="submit"] {
     background-size: cover;
     padding: 20px;
+}
+h3, h4, h5, p, a {
+    color: #6f5a3b;
 }
 .beigebackground {
     background-color: #faf8f1;
