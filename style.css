@@ -44,5 +44,8 @@ input[type="submit"] {
     max-width: 1140px;
     padding: 0px 20px;
 }
+.navigationlist {
+    list-style-type: none;
+}
 
 
