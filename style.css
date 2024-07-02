@@ -46,6 +46,7 @@ img {
     max-width: 100%;
 }
 
+
 input[type="submit"] {
     background-size: cover;
     padding: 20px;
@@ -67,4 +68,14 @@ input[type="submit"] {
     background-size: cover;
     background-repeat: no-repeat;
 }
-
+img.logo__image {
+    height: auto;
+    width: 100px;
+}
+.logo.logo--large img.logo__image {
+    width: 364px;
+}
+a.button {
+    background: yellow;
+    padding: 30px;
+}
