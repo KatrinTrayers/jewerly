@@ -3,13 +3,16 @@ box-sizing: border-box;
 padding: 0px;
 margin: 0;
 }
-
+html  {
+    font-size: 62.5%;
+}
 body {
         font-family: "Nunito", sans-serif;
         font-optical-sizing: auto;
         font-weight: normal;
         font-style: normal;
         color: #212121;
+        font-size: 1.6rem;
        
 }
 input, textarea, select, label {
@@ -23,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h1 {
     font-size: 40px;
-        font-size: 40px;
+    font-size: 4rem;
         margin-bottom: 35px;
         font-weight: 400;
     }
@@ -79,6 +82,9 @@ input[type="submit"] {
 .banner__uppercasefirstletter {
     text-transform: capitalize;
 }
+.banner__smallwidth {
+    max-width: 20ch;
+}
 .banner--largeimage {
     min-height: 60vh;
 }
@@ -88,10 +94,10 @@ img.logo__image {
 }
 
 a.button {
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-left: 1.9em;
+    padding-right: 1.9em;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
     display: inline-block;
     background-color: #f1ebd1;
     border: 1px solid #3b3312;
@@ -100,7 +106,7 @@ a.button {
     color: black;
 }
 p.banner__smalltext {
-    font-size: 12px;
+    font-size: 1.4rem;
     text-transform: uppercase;
 }
 .logo.logo--large img.logo__image {
