@@ -61,7 +61,10 @@ input[type="submit"] {
 }
 .row {
     display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+    grid-template-columns: repeat(5,1fr);
+}
+.row {
+    gap: 30px;
 }
 .row--spacebetween {
     display: flex;
@@ -82,6 +85,13 @@ input[type="submit"] {
 .navigationmenu__list {
     list-style-type: none;
 }
+.header__upperpanel {
+    padding: 30px 0px;
+}
+
+.header__lowerpanel {
+    padding: 15px 0px;
+}
 .banner {
     background-position: center;
     background-size: cover;
@@ -99,14 +109,24 @@ input[type="submit"] {
 .banner--largeimage {
     min-height: 60vh;
 }
+.banner--leftcentercontent  {
+    display: grid;
+    align-content: center;
+}
+.banner--leftcentercontent .container {
+    width: 100%;
+}   
 .section--offwhitebackground {
     background-color: #f9f6f2;
 }
-
+.navigationmenu a {
+    padding: 10px 0px;
+    display: block;
+}
 ul.navigationmenu__list {
     display: flex;
     justify-content: center;
-    gap: 0.5rem;
+    gap: 3.5rem;
 }
 img.logo__image {
     height: auto;
