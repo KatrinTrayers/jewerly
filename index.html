@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en"> 
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
         <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
         <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,9 +22,12 @@
                 <div class="header__upperpanel">
                     <div class="row row--spacebetween" >
                         <div class="column">
-                            <div class="search">
+                            <div class="hiddenontablet search">
                                 <span class="lnr lnr-magnifier"></span> 
 
+                            </div>
+                            <div class="burgermenue hiddenondesktop" > 
+                                <span class="lnr lnr-menu"></span>
                             </div>
                         </div>
                         <div class="column">
@@ -38,7 +43,7 @@
                     </div>
 
                 </div> 
-                <div class="header__lowerpanel">
+                <div class="header__lowerpanel hiddenontablet">
                     <nav class="navigationmenu">
                         <ul class="navigationmenu__list">
                             <li class="navigationmenu__element">
@@ -87,9 +92,9 @@
                 </div>
                </div> 
             </section>
-            <section class="section section--offwhitebackground">
+            <section class="section section--offwhitebackground section--mediumpadding">
                 <div class="container">
-                    <div class="row">
+                    <div class="row row--fivecolumns row--smallgap">
                         <div class="column">
                             <div class="thumbnail">
                                 <a href="#">
